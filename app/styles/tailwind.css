@@ -67,114 +67,28 @@
     @apply bg-background text-foreground;
   }
   @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-ExtraLight.otf') format('opentype');
-    font-weight: 200;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-ExtraLight-Italic.otf') format('opentype');
-    font-weight: 200;
-    font-style: italic;
-  }
-
-  @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-Light.otf') format('opentype');
-    font-weight: 300;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-Light-Italic.otf') format('opentype');
-    font-weight: 300;
-    font-style: italic;
-  }
-
-  @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-Regular.otf') format('opentype');
+    font-family: 'Antichona';
+    src: url('/fonts/Antichona.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
   }
-
   @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-Regulalr-Italic.otf') format('opentype');
+    font-family: 'Avenir';
+    src: url('/fonts/Avenir.ttf') format('truetype');
     font-weight: 400;
-    font-style: italic;
-  }
-
-  @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-Medium.otf') format('opentype');
-    font-weight: 500;
     font-style: normal;
   }
-
   @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-Medium-Italic.otf') format('opentype');
-    font-weight: 500;
-    font-style: italic;
-  }
-
-  @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-Bold.otf') format('opentype');
-    font-weight: 800;
+    font-family: 'Futura';
+    src: url('/fonts/Futura.ttf') format('truetype');
+    font-weight: 400;
     font-style: normal;
   }
-
   @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-Bold-Italic.otf') format('opentype');
-    font-weight: 800;
-    font-style: italic;
-  }
-  @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-Bold.otf') format('opentype');
-    font-weight: 700;
+    font-family: 'PP Editorial New';
+    src: url('/fonts/PPEditorialNew-Regular.otf') format('opentype');
+    font-weight: 400;
     font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-Bold-Italic.otf') format('opentype');
-    font-weight: 700;
-    font-style: italic;
-  }
-
-  @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-SemiBold.otf') format('opentype');
-    font-weight: 600;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-SemiBold-Italic.otf') format('opentype');
-    font-weight: 600;
-    font-style: italic;
-  }
-
-  @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-Black.otf') format('opentype');
-    font-weight: 900;
-    font-style: normal;
-  }
-
-  @font-face {
-    font-family: 'Silk-Serif';
-    src: url('/silk/Silk-Serif-Black-Italic.otf') format('opentype');
-    font-weight: 900;
-    font-style: italic;
   }
 }
 
@@ -234,11 +148,11 @@
 }
 
 .native h1:not(.article h1) {
-  @apply h1-size font-silk text-brown;
+  @apply h1-size font-anti text-dark;
 }
 
 .native h4:not(.article h4) {
-  @apply p-size font-silk text-brown border-sand pt-2 border-t;
+  @apply p-size font-anti text-dark border-purple pt-2 border-t;
 }
 
 .native .child {
@@ -246,7 +160,7 @@
 }
 
 .native a:not(.article a) {
-  @apply text-brown font-silk;
+  @apply text-dark font-anti;
 }
 
 .native .article {
@@ -268,7 +182,7 @@
 }
 
 .predictive-search-result h5 {
-  @apply font-silk text-green text-xl uppercase;
+  @apply font-anti text-green text-xl uppercase;
 }
 
 .predictive-search-result-item a {
@@ -276,7 +190,7 @@
 }
 
 .predictive-search-result-item p {
-  @apply font-silk text-brown text-base;
+  @apply font-anti text-dark text-base;
 }
 
 .predictive-search-result-item small div {
@@ -284,5 +198,5 @@
 }
 
 .predictive-search-result-item a div span {
-  @apply text-brown text-base font-light;
+  @apply text-dark text-base font-light;
 }

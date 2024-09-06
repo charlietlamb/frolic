@@ -22,8 +22,10 @@ module.exports = {
         800: '800ms',
       },
       fontFamily: {
-        silk: ['Silk-Serif', 'Verdana', 'Segoe', 'sans-serif'],
-        inter: ['Inter var', defaultTheme.fontFamily.sans],
+        anti: ['Antichona', 'sans-serif'],
+        avenir: ['Avenir', 'sans-serif'],
+        futura: ['Futura', 'sans-serif'],
+        pp: ['PP Editorial New', 'sans-serif'],
       },
       boxShadow: {
         boxShadow: {
@@ -46,15 +48,10 @@ module.exports = {
         boxShadowYSmall: '2px',
       },
       colors: {
-        green: '#9FAD86',
-        greenDark: '#505743',
-        greenLight: '#ecefe7',
-        brown: '#5E452A',
-        pink: '#E5C6B7',
-        oil: '#C3C8B6',
-        sand: '#D3BF94',
-        dark: '#231E1F',
-        white: '#FFF',
+        purple: '#D0A4E2',
+        green: 'E0FFA5',
+        light: '#FAFFEB',
+        dark: '#1B1A24',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -90,6 +87,7 @@ module.exports = {
         },
       },
       borderRadius: {
+        base: '24px',
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',

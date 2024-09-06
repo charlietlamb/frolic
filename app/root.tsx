@@ -10,11 +10,17 @@ import {
   ScrollRestoration,
   isRouteErrorResponse,
   type ShouldRevalidateFunction,
+  useLoaderData,
 } from '@remix-run/react';
 import favicon from '~/assets/favicon.svg';
 import appStyles from '~/styles/app.css?url';
 import tailwindMinCss from './styles/tailwind.min.css?url';
 import {PageLayout} from '~/components/PageLayout';
+import {PRODUCT_QUERY} from './routes/products.$handle';
+import {Product} from '@shopify/hydrogen/storefront-api-types';
+import {useSetAtom} from 'jotai';
+import {productAtom} from './store/frolic';
+import {useEffect} from 'react';
 
 export type RootLoader = typeof loader;
 
@@ -82,17 +88,28 @@ async function loadCriticalData({context}: LoaderFunctionArgs) {
 
   const cartLoaded = await cart.get();
   const isLoggedInLoaded = await customerAccount.isLoggedIn();
-
+  const response = await context.storefront.query(PRODUCT_QUERY, {
+    variables: {
+      handle: 'movement-base',
+      selectedOptions: [],
+    },
+  });
   return {
     cart: cartLoaded,
     isLoggedIn: isLoggedInLoaded,
+    product: response.product as Product,
   };
 }
 
 export function Layout({children}: {children?: React.ReactNode}) {
   const nonce = useNonce();
   const data = useRouteLoaderData<RootLoader>('root');
-
+  // @ts-ignore
+  const {product} = data;
+  const setProduct = useSetAtom(productAtom);
+  useEffect(() => {
+    setProduct(product);
+  }, [product]);
   return (
     <html lang="en">
       <head>

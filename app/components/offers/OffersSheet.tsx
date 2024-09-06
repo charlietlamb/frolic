@@ -7,11 +7,7 @@ export default function OffersSheet() {
   return (
     <Sheet>
       <SheetTrigger className="md:flex items-center hidden">
-        <Button
-          variant="green"
-          className="text-md px-2 pt-2 pb-1.5 leading-4"
-          size="auto"
-        >
+        <Button variant="green" className="text-md px-2 leading-4" size="auto">
           View Offers
         </Button>
       </SheetTrigger>

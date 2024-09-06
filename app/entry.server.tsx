@@ -22,6 +22,7 @@ export default async function handleRequest(
       'https://shop.app',
     ],
     styleSrc: ['https://rsms.me'],
+    imgSrc: ['https://images.unsplash.com'],
   });
 
   const body = await renderToReadableStream(
