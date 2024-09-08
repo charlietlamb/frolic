@@ -18,7 +18,9 @@ export default function ProductSummary({
   if (!orderDetails || !orderDetails.length) return 'No details found...';
   const orderDetailsArray = orderDetails.split(',');
   return (
-    <div className={cn('font-silk grid grid-cols-2 gap-2 text-sm', className)}>
+    <div
+      className={cn('font-futura grid grid-cols-2 gap-2 text-sm', className)}
+    >
       {orderDetailsArray.map((detail, index) => (
         <div
           className={cn(

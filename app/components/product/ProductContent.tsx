@@ -1,6 +1,9 @@
 import {motion} from 'framer-motion';
-import ProductTitle from './ProductTitle';
+import ProductTitle from './details/ProductTitle';
 import ProductAddToCart from './action/ProductAddToCart';
+import ProductDescription from './details/ProductDescription';
+import ProductAccordion from './details/ProductAccordion';
+import ProductVariants from './variants/ProductVariants';
 const containerVariants = {
   hidden: {opacity: 0, y: 50},
   visible: {
@@ -29,6 +32,9 @@ export default function ProductContent({
       ref={productRef}
     >
       <ProductTitle />
+      <ProductDescription />
+      <ProductAccordion />
+      <ProductVariants />
       <ProductAddToCart />
     </motion.div>
   );

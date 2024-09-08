@@ -13,7 +13,7 @@ export default function StoryTabs() {
       className="bg-green md:py-16 w-full py-8 text-white"
     >
       <div className="padding-main">
-        <h3 className="font-silk md:mb-6 md:text-3xl mb-4 text-2xl text-center">
+        <h3 className="font-futura md:mb-6 md:text-3xl mb-4 text-2xl text-center">
           Our Process
         </h3>
         <Tabs
@@ -24,25 +24,25 @@ export default function StoryTabs() {
           <TabsList className="grid w-full grid-cols-3 gap-2 bg-green-600">
             <TabsTrigger
               value="ingredients"
-              className="font-silk text-white data-[state=active]:bg-white data-[state=active]:text-dark text-base md:text-lg"
+              className="font-futura text-white data-[state=active]:bg-white data-[state=active]:text-dark text-base md:text-lg"
             >
               Ingredients
             </TabsTrigger>
             <TabsTrigger
               value="crafting"
-              className="font-silk text-white data-[state=active]:bg-white data-[state=active]:text-dark text-base md:text-lg"
+              className="font-futura text-white data-[state=active]:bg-white data-[state=active]:text-dark text-base md:text-lg"
             >
               Crafting
             </TabsTrigger>
             <TabsTrigger
               value="quality"
-              className="hidden md:block font-silk text-white data-[state=active]:bg-white data-[state=active]:text-dark text-base md:text-lg"
+              className="hidden md:block font-futura text-white data-[state=active]:bg-white data-[state=active]:text-dark text-base md:text-lg"
             >
               Quality Control
             </TabsTrigger>
             <TabsTrigger
               value="quality"
-              className="block md:hidden font-silk text-white data-[state=active]:bg-white data-[state=active]:text-dark text-base md:text-lg"
+              className="block md:hidden font-futura text-white data-[state=active]:bg-white data-[state=active]:text-dark text-base md:text-lg"
             >
               Quality
             </TabsTrigger>
@@ -59,7 +59,7 @@ export default function StoryTabs() {
               <TabsContent value="ingredients">
                 <Card className="text-green bg-white">
                   <CardHeader>
-                    <CardTitle className="font-silk text-dark md:text-2xl text-xl">
+                    <CardTitle className="font-futura text-dark md:text-2xl text-xl">
                       Premium Ingredients
                     </CardTitle>
                   </CardHeader>
@@ -96,7 +96,7 @@ export default function StoryTabs() {
               <TabsContent value="crafting">
                 <Card className="text-green bg-white">
                   <CardHeader>
-                    <CardTitle className="font-silk text-dark md:text-2xl text-xl">
+                    <CardTitle className="font-futura text-dark md:text-2xl text-xl">
                       Artisanal Craftsmanship
                     </CardTitle>
                   </CardHeader>
@@ -111,11 +111,10 @@ export default function StoryTabs() {
                       </div>
                       <div className="text-dark">
                         <p className="md:text-lg mb-4 text-base font-light">
-                          At La Cookie Shop, we believe that baking is an art
-                          form. Our skilled bakers combine time-honored
-                          techniques with innovative approaches to create
-                          cookies that are not just delicious, but also visually
-                          stunning.
+                          At Frolic, we believe that baking is an art form. Our
+                          skilled bakers combine time-honored techniques with
+                          innovative approaches to create cookies that are not
+                          just delicious, but also visually stunning.
                         </p>
                         <p className="md:text-lg text-base font-light">
                           Each cookie is carefully crafted by hand, ensuring
@@ -133,7 +132,7 @@ export default function StoryTabs() {
               <TabsContent value="quality">
                 <Card className="text-green bg-white">
                   <CardHeader>
-                    <CardTitle className="font-silk text-dark md:text-2xl text-xl">
+                    <CardTitle className="font-futura text-dark md:text-2xl text-xl">
                       Rigorous Quality Control
                     </CardTitle>
                   </CardHeader>
@@ -148,10 +147,10 @@ export default function StoryTabs() {
                       </div>
                       <div className="text-dark">
                         <p className="md:text-lg mb-4 text-base font-light">
-                          At La Cookie Shop, quality is not just a goal; it's
-                          our obsession. Every batch of cookies undergoes
-                          rigorous quality control checks to ensure they meet
-                          our high standards.
+                          At Frolic, quality is not just a goal; it's our
+                          obsession. Every batch of cookies undergoes rigorous
+                          quality control checks to ensure they meet our high
+                          standards.
                         </p>
                         <p className="md:text-lg text-base font-light">
                           Our team of expert tasters evaluates each cookie for

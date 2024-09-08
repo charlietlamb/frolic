@@ -49,7 +49,7 @@ module.exports = {
       },
       colors: {
         purple: '#D0A4E2',
-        green: 'E0FFA5',
+        green: '#E0FFA5',
         light: '#FAFFEB',
         dark: '#1B1A24',
         border: 'hsl(var(--border))',
@@ -88,6 +88,8 @@ module.exports = {
       },
       borderRadius: {
         base: '24px',
+        mid: '32px',
+        large: '48px',
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',

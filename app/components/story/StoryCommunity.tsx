@@ -9,7 +9,7 @@ export default function StoryCommunity() {
       className="bg-green w-full py-16 text-white"
     >
       <div className="padding-main">
-        <h3 className="font-silk mb-6 text-3xl text-center">Our Community</h3>
+        <h3 className="font-futura mb-6 text-3xl text-center">Our Community</h3>
         <div className="md:flex-row flex flex-col items-start gap-8">
           <motion.img
             src="/images/cookie-bowl.jpeg"
@@ -26,21 +26,21 @@ export default function StoryCommunity() {
             transition={{duration: 1, delay: 2.4}}
           >
             <p className="mb-4 text-lg font-light">
-              At La Cookie Shop, we believe that cookies have the power to bring
-              people together. That's why we're deeply committed to fostering a
-              sense of community, both within our shops and in the neighborhoods
-              we serve. Our stores are designed to be more than just places to
-              buy cookies; they're gathering spots where people can connect,
-              share stories, and create memories.
+              At Frolic, we believe that cookies have the power to bring people
+              together. That's why we're deeply committed to fostering a sense
+              of community, both within our shops and in the neighborhoods we
+              serve. Our stores are designed to be more than just places to buy
+              cookies; they're gathering spots where people can connect, share
+              stories, and create memories.
             </p>
             <p className="mb-4 text-lg font-light">
               We regularly host events that celebrate our community and our
               shared love of great food. From cookie decorating workshops for
               children to pairing events that match our cookies with local wines
-              and cheeses, there's always something happening at La Cookie Shop.
-              These events not only allow us to share our passion with our
-              customers but also give us the opportunity to learn from them and
-              gather inspiration for new creations.
+              and cheeses, there's always something happening at Frolic. These
+              events not only allow us to share our passion with our customers
+              but also give us the opportunity to learn from them and gather
+              inspiration for new creations.
             </p>
             <p className="text-lg font-light">
               Our commitment to community extends beyond our stores. We actively

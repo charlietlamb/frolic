@@ -14,21 +14,21 @@ export default function StoryValues() {
       transition={{duration: 1, delay: 1.5}}
       className="padding-main w-full"
     >
-      <h3 className="font-silk text-dark mb-6 text-3xl text-center">
+      <h3 className="font-futura text-dark mb-6 text-3xl text-center">
         Our Values
       </h3>
       <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="item-1">
-          <AccordionTrigger className="font-silk text-green">
+          <AccordionTrigger className="font-futura text-green">
             Quality Without Compromise
           </AccordionTrigger>
           <AccordionContent>
             <p className="mb-4 text-lg font-light">
-              At La Cookie Shop, quality is not just a goal; it's our
-              foundation. We believe that every cookie we create should be a
-              testament to our commitment to excellence. This means never
-              cutting corners, always using the best ingredients, and constantly
-              refining our techniques.
+              At Frolic, quality is not just a goal; it's our foundation. We
+              believe that every cookie we create should be a testament to our
+              commitment to excellence. This means never cutting corners, always
+              using the best ingredients, and constantly refining our
+              techniques.
             </p>
             <p className="text-lg font-light">
               Our dedication to quality extends beyond our products to every
@@ -40,7 +40,7 @@ export default function StoryValues() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-2">
-          <AccordionTrigger className="font-silk text-green">
+          <AccordionTrigger className="font-futura text-green">
             Innovation Rooted in Tradition
           </AccordionTrigger>
           <AccordionContent>
@@ -57,21 +57,21 @@ export default function StoryValues() {
               texture and presentation, we're always looking for ways to elevate
               the humble cookie. Our R&D team works tirelessly to bring fresh
               ideas to life, ensuring that there's always something new and
-              exciting to discover at La Cookie Shop.
+              exciting to discover at Frolic.
             </p>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="item-3">
-          <AccordionTrigger className="font-silk text-green">
+          <AccordionTrigger className="font-futura text-green">
             Sustainability and Responsibility
           </AccordionTrigger>
           <AccordionContent>
             <p className="mb-4 text-lg font-light">
               We believe that great taste and responsible business practices go
               hand in hand. That's why sustainability is at the heart of
-              everything we do at La Cookie Shop. From sourcing ingredients from
-              local, sustainable farms to using eco-friendly packaging, we're
-              committed to reducing our environmental impact.
+              everything we do at Frolic. From sourcing ingredients from local,
+              sustainable farms to using eco-friendly packaging, we're committed
+              to reducing our environmental impact.
             </p>
             <p className="text-lg font-light">
               But our commitment to responsibility goes beyond environmental

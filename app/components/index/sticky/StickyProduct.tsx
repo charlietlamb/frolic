@@ -13,6 +13,7 @@ export default function StickyProduct({
 }: {
   productRef: React.RefObject<HTMLDivElement>;
 }) {
+  return null;
   const {productOpen} = useOpenStore();
   return (
     <AnimatePresence>
@@ -26,7 +27,7 @@ export default function StickyProduct({
           transition={{duration: 0.3}}
         >
           <motion.div
-            className="left-4 bottom-4 border-green  hover:bg-greenLight/80 absolute !z-50 flex items-center gap-2 pt-2 pb-1 px-4 font-silk bg-white/80 backdrop-blur-md border rounded-lg cursor-pointer pointer-events-auto"
+            className="left-4 bottom-4 hover:bg-purple/90 absolute !z-50 flex items-center gap-2 py-1 px-4 font-futura bg-purple/50 backdrop-blur-md border rounded-lg cursor-pointer pointer-events-auto"
             onClick={() => {
               productRef.current?.scrollIntoView({behavior: 'smooth'});
             }}

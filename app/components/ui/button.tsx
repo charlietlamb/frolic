@@ -29,7 +29,9 @@ const buttonVariants = cva(
         ghost: 'text-sand',
         ghostBrown: 'text-brown',
         green:
-          'bg-green text-white font-silk uppercase flex items-center leading-none',
+          'bg-green text-white font-futura uppercase flex items-center leading-none',
+        purple:
+          'bg-purple text-white font-futura uppercase flex items-center leading-none',
         link: 'text-primary underline-offset-4 hover:underline',
         pointer: 'bg-transparent text-sand border-sand border',
       },

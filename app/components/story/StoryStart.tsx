@@ -10,7 +10,7 @@ export default function StoryStart() {
     >
       <motion.img
         src="/images/cookie-mag-tea.jpeg"
-        alt="La Cookie Shop Story"
+        alt="Frolic Story"
         className="md:w-1/3 w-full rounded-lg shadow-lg"
         initial={{opacity: 0, scale: 0.9}}
         animate={{opacity: 1, scale: 1}}
@@ -22,11 +22,11 @@ export default function StoryStart() {
         animate={{opacity: 1, x: 0}}
         transition={{duration: 1, delay: 0.9}}
       >
-        <h3 className="font-silk text-green mb-4 text-3xl">Our Beginnings</h3>
+        <h3 className="font-futura text-green mb-4 text-3xl">Our Beginnings</h3>
         <p className="mb-4 text-lg font-light">
-          La Cookie Shop was founded on the idea that a cookie can be more than
-          just a treat—it can be a luxurious experience. This vision first took
-          shape during a trip to Paris when Britt encountered the famous Ispahan
+          Frolic was founded on the idea that a cookie can be more than just a
+          treat—it can be a luxurious experience. This vision first took shape
+          during a trip to Paris when Britt encountered the famous Ispahan
           dessert by Pierre Hermé. The delicate blend of rose, raspberries, and
           lychee inspired Britt to reimagine these refined flavors in a more
           accessible format. Why couldn't such an elegant dessert be enjoyed on
@@ -42,10 +42,10 @@ export default function StoryStart() {
           elegance and comfort.
         </p>
         <p className="text-lg font-light">
-          This was just the beginning. At La Cookie Shop, Britt continues to
-          push the boundaries of flavor, crafting cookies that are not only
-          delicious but also thoughtful, innovative, and deeply inspired by her
-          love of luxury and gourmet cuisine.
+          This was just the beginning. At Frolic, Britt continues to push the
+          boundaries of flavor, crafting cookies that are not only delicious but
+          also thoughtful, innovative, and deeply inspired by her love of luxury
+          and gourmet cuisine.
         </p>
       </motion.div>
     </motion.section>

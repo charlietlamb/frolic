@@ -11,16 +11,16 @@ export default function StoryJourney() {
       transition={{duration: 1, delay: 2.7}}
       className="padding-main w-full"
     >
-      <h3 className="font-silk text-green mb-6 text-3xl text-center">
+      <h3 className="font-futura text-green mb-6 text-3xl text-center">
         Join Our Journey
       </h3>
       <p className="mb-6 text-lg font-light text-center">
-        At La Cookie Shop, our story is still unfolding, and we want you to be
-        part of it. Every cookie we create, every flavor we explore, and every
-        new idea we bring to life is inspired by the joy we share with our
-        customers. Whether you're indulging in our classic creations or
-        discovering a new flavor profile for the first time, you're joining us
-        in a journey of culinary exploration and creativity.
+        At Frolic, our story is still unfolding, and we want you to be part of
+        it. Every cookie we create, every flavor we explore, and every new idea
+        we bring to life is inspired by the joy we share with our customers.
+        Whether you're indulging in our classic creations or discovering a new
+        flavor profile for the first time, you're joining us in a journey of
+        culinary exploration and creativity.
       </p>
       <p className="mb-8 text-lg font-light text-center">
         We invite you to follow along as we continue to push the limits of what
@@ -39,7 +39,7 @@ export default function StoryJourney() {
         <Button
           variant="green"
           size="lg"
-          className="bg-green hover:bg-green-600 font-silk text-white"
+          className="bg-green hover:bg-green-600 font-futura text-white"
           onClick={() => navigate('/our-cookies')}
         >
           Explore Our Cookies

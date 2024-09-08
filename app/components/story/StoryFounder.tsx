@@ -7,16 +7,16 @@ export default function StoryFounder() {
       animate={{opacity: 1, x: 0}}
       transition={{duration: 1, delay: 0.9}}
     >
-      <h3 className="font-silk text-green mb-4 text-3xl">Our Founder</h3>
+      <h3 className="font-futura text-green mb-4 text-3xl">Our Founder</h3>
       <p className="mb-4 text-lg font-light">
-        Britt Moore's journey to founding La Cookie Shop is rooted in her
-        passion for luxury and gourmet cuisine. Before venturing into the
-        culinary world, Britt built a successful career in fashion, working for
-        Conde Nast and Interview Magazine, where she cultivated a refined taste
-        for aesthetics and the finer things in life. Yet, her heart always
-        belonged to the kitchen, and as a lifelong cook, baker, and food
-        competition competitor, she gradually turned her focus toward her true
-        passion: creating indulgent, artfully crafted desserts.
+        Britt Moore's journey to founding Frolic is rooted in her passion for
+        luxury and gourmet cuisine. Before venturing into the culinary world,
+        Britt built a successful career in fashion, working for Conde Nast and
+        Interview Magazine, where she cultivated a refined taste for aesthetics
+        and the finer things in life. Yet, her heart always belonged to the
+        kitchen, and as a lifelong cook, baker, and food competition competitor,
+        she gradually turned her focus toward her true passion: creating
+        indulgent, artfully crafted desserts.
       </p>
       <p className="mb-4 text-lg font-light">
         Drawing from her dual love of fashion and gourmet food, Britt envisioned

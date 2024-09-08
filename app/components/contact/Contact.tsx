@@ -7,7 +7,7 @@ import useWindowDimensions from '../utils/useWindowDimensions';
 import useSetHeaderOpen from '../utils/useSetHeaderOpen';
 
 export const meta: MetaFunction = () => {
-  return [{title: 'Contact Us - La Cookie Shop'}];
+  return [{title: 'Contact Us - Frolic'}];
 };
 
 export default function Contact() {
@@ -20,7 +20,7 @@ export default function Contact() {
         initial={{opacity: 0, y: -50}}
         animate={{opacity: 1, y: 0}}
         transition={{duration: 0.6}}
-        className="h1-size font-silk text-dark mb-12 text-center"
+        className="h1-size font-futura text-dark mb-12 text-center"
       >
         Get in Touch
       </motion.h1>
@@ -33,7 +33,7 @@ export default function Contact() {
       >
         <img
           src="/images/cookie-mag-tea.jpeg"
-          alt="La Cookie Shop"
+          alt="Frolic"
           className="object-cover w-full h-64 mb-8 rounded-lg shadow-md"
         />
 

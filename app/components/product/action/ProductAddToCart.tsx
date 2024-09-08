@@ -28,6 +28,7 @@ const buttonVariants = {
 export default function ProductAddToCart() {
   const {setCartOpen} = useOpenStore();
   const selectedVariant = useAtomValue(selectedVariantAtom);
+  console.log(selectedVariant);
   if (!selectedVariant) return null;
   return (
     <motion.div
@@ -35,7 +36,6 @@ export default function ProductAddToCart() {
       initial="hidden"
       whileInView="visible"
       viewport={{once: true, amount: 0.1}}
-      className="px-8"
       onClick={() => {
         setCartOpen(true);
       }}
@@ -56,13 +56,13 @@ export default function ProductAddToCart() {
       >
         <motion.div variants={buttonVariants}>
           <Button
-            variant="green"
+            variant="purple"
             className={cn('p-size mt-4')}
             disabled={selectedVariant.currentlyNotInStock}
           >
             {selectedVariant.currentlyNotInStock
               ? 'Out of stock'
-              : `Add to cart €${parseFloat(
+              : `Add to cart $${parseFloat(
                   selectedVariant.price.amount,
                 ).toFixed(2)}`}
           </Button>

@@ -200,3 +200,7 @@
 .predictive-search-result-item a div span {
   @apply text-dark text-base font-light;
 }
+
+mux-player {
+  --controls: none;
+}

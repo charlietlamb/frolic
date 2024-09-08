@@ -31,10 +31,10 @@ export function Header({
       }}
       exit={{opacity: 0, y: '-100%'}}
       transition={{duration: 0.6}}
-      className="padding-main fixed top-4 z-50 flex items-center justify-center w-full py-2"
+      className="top-4 fixed z-50 flex items-center justify-center w-full px-6 py-2"
       onMouseLeave={() => setHeaderKey(null)}
     >
-      <div className="backdrop-blur-sm px-8 bg-white/70 w-full flex items-center justify-center rounded-base overflow-hidden">
+      <div className="backdrop-blur-sm bg-purple font-avenir rounded-base flex items-center justify-center w-full px-8 py-2 overflow-hidden">
         <HeaderMobileLeft />
         <HeaderMenuLeft />
         <HeaderLogo />

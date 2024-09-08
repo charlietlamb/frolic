@@ -9,8 +9,8 @@ export default function HeaderPopover() {
     <Popover open={!!headerKey}>
       <PopoverTrigger />
       <PopoverContent
-        className="bg-white/80 backdrop-blur-sm border-green ml-14 md:block hidden overflow-hidden border rounded-none"
-        style={{width: 'calc(100vw - 112px)'}}
+        className="bg-purple backdrop-blur-sm md:block rounded-base border-purple hidden mt-4 ml-6 overflow-hidden"
+        style={{width: 'calc(100vw - 64px)'}}
         side="bottom"
         sideOffset={28}
         onMouseLeave={() => setHeaderKey(null)}
