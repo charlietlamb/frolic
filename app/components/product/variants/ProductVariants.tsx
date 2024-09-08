@@ -1,10 +1,10 @@
 import {useAtom} from 'jotai';
 import {motion} from 'framer-motion';
 import {selectedColorAtom} from '~/store/frolic';
-import {productVariants} from './productVariants';
 import {productVariantsColorMap} from './productVariantsColorMap';
 import {cn} from '~/lib/utils';
 import {ProductVariantType} from './ProductVariantType';
+import {productVariants} from './productVariantsData';
 
 const containerVariants = {
   hidden: {opacity: 0, y: 20},
