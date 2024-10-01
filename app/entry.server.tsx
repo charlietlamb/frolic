@@ -16,7 +16,12 @@ export default async function handleRequest(
       checkoutDomain: context.env.PUBLIC_CHECKOUT_DOMAIN,
       storeDomain: context.env.PUBLIC_STORE_DOMAIN,
     },
-    imgSrc: ['https://images.unsplash.com', 'https://image.mux.com'],
+    imgSrc: [
+      'https://images.unsplash.com',
+      'https://image.mux.com',
+      'self',
+      'localhost:3000',
+    ],
     defaultSrc: [
       'https://rsms.me',
       'https://cdn.shopify.com',
@@ -25,6 +30,7 @@ export default async function handleRequest(
       'https://image.mux.com',
       'https://inferred.litix.io',
       'https://stream.mux.com',
+      'self',
     ],
     styleSrc: ['https://fonts.googleapis.com'],
     fontSrc: ['https://fonts.gstatic.com', 'self'],

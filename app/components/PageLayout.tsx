@@ -15,11 +15,11 @@ export function PageLayout({
 }: PageLayoutProps) {
   return (
     <>
-      <Header cart={cart} isLoggedIn={isLoggedIn} />
+      {/* <Header cart={cart} isLoggedIn={isLoggedIn} /> */}
       <main className="bg-light font-avenir relative flex-grow">
         {children}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

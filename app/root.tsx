@@ -46,7 +46,6 @@ export const shouldRevalidate: ShouldRevalidateFunction = ({
 export function links() {
   return [
     {rel: 'stylesheet', href: tailwindMinCss},
-    {rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css'},
     {rel: 'stylesheet', href: appStyles},
     {
       rel: 'preconnect',
